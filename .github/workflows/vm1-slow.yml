@@ -11,5 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hold merge queue finalizer
-        run: sleep 90
-
+        run: sleep 240
