@@ -1,9 +1,1 @@
-queue_rules:
-  - name: default
-    queue_conditions: []
-    merge_conditions: []
-    branch_protection_injection_mode: queue
-    autoqueue: true
-    queue_branch_merge_method: fast-forward
-
 pull_request_rules: []
