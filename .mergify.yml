@@ -1,6 +1,7 @@
 queue_rules:
   - name: default
-    queue_conditions: []
+    queue_conditions:
+      - title = VM1_FF_MODERN_260916
     merge_conditions: []
     branch_protection_injection_mode: queue
     autoqueue: true
