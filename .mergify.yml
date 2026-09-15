@@ -4,7 +4,7 @@ queue_rules:
       - title = VM1_FF_MODERN_260916
     merge_conditions: []
     branch_protection_injection_mode: queue
-    autoqueue: true
-    queue_branch_merge_method: fast-forward
-
+    merge_method: fast-forward
 pull_request_rules: []
+merge_protections_settings:
+  auto_merge_conditions: true
