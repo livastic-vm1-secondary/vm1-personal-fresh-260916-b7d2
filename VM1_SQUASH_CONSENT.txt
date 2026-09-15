@@ -1,1 +1,2 @@
 squash-consent-one
+squash-consent-two
