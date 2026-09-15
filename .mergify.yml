@@ -2,7 +2,7 @@ queue_rules:
   - name: default
     queue_conditions: []
     merge_conditions:
-      - label = vm1-finalize-260916
+      - check-success = vm1-slow-gate
     branch_protection_injection_mode: queue
     autoqueue: true
 
