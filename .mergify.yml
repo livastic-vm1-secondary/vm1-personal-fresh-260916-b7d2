@@ -1,18 +1,1 @@
-pull_request_rules:
-  - name: VM1 fresh sender laundering trigger
-    conditions:
-      - author = livastic-vm1-primary
-      - title = VM1_FRESH_SENDER_LAUNDER_260916
-      - -label = vm1-fresh-sender-launder-260916
-    actions:
-      label:
-        add:
-          - vm1-fresh-sender-launder-260916
-
-  - name: VM1 fresh sender laundering admin sentinel
-    conditions:
-      - label = vm1-fresh-sender-launder-260916
-      - sender-permission >= admin
-    actions:
-      comment:
-        message: VM1_FRESH_SENDER_PERMISSION_ADMIN_SENTINEL_260916
+pull_request_rules: []
