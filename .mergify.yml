@@ -1,1 +1,9 @@
+queue_rules:
+  - name: default
+    queue_conditions: []
+    merge_conditions:
+      - label = vm1-finalize-260916
+    branch_protection_injection_mode: queue
+    autoqueue: true
+
 pull_request_rules: []
